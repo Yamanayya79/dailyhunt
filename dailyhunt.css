@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+#site-icon {
+    font-size: 34px;
+    font-weight: bold;
+    float: left;
+    padding: 3px 18px;
+}
+
+#social {
+    float: right;
+    display: flex;
+
+}
+
+#social-icon {
+    padding: 4px 20px;
+    font-size: 28px;
+}
+
+/* =========2 nd part */
+#sroll {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgb(220, 217, 217);
+    scroll-behavior: inherit;
+    scroll-margin-left: 50px;
+    
+
+}
+
+#sroll-contint {
+    padding: 3px 11px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+/* ====================news update================ */
+#new-update {
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px white;
+    /* border-bottom: 2px solid rgb(213, 207, 207); */
+}
+#new-continer{
+    width: 80%;
+    height: 70%;
+    margin-left: 11%;
+    /* background-color: aqua; */
+    scroll-behavior: auto;
+    touch-action: auto;
+  
+}
+#new-continer img{
+    width: 100%;
+    height: 90%;
+    padding: 17px 13px;
+}
+
+/* ================footer================ */
+#footer {
+    /* position: fixed; */
+    text-align: center;
+}
+
+#footer-icon {
+    padding: 4px 15px;
+    
+}
+/* new soical icon */
+#news-soicle{
+    float: right;
+    padding: 2px 2px;
+}
+#sub-news-soical{
+    margin-top: -15px;
+}
